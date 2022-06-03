@@ -1,0 +1,24 @@
+Author: Girish Palya <girishji@gmail.com>
+Date:   Fri, 03 Jun 2022 19:53:16 +0200
+
+Initial commit
+
+
+ M .gitignore
+A  Optical_Parts.pretty/Everlight_IR_IR12-21C_TR8.kicad_mod
+A  Optical_Parts.pretty/Everlight_PT_PT12-21C_TR8.kicad_mod
+A  Optical_Parts.pretty/Gateron_Optical_Switch.kicad_mod
+A  Optical_Parts.pretty/MountingHole_1.2mm_M1.kicad_mod
+A  Optical_Parts.pretty/TestPoint_THTPad_1.0x1.5mm_Drill0.5mm.kicad_mod
+A  Optical_Parts.pretty/TestPoint_THTPad_1.0x2.5mm_Drill0.5mm.kicad_mod
+A  fp-lib-table
+A  optical-amoeba.kicad_pcb
+A  optical-amoeba.kicad_prl
+A  optical-amoeba.kicad_pro
+A  optical-amoeba.kicad_sch
+
+commit 84367ba83b915e725cbbc370f7a654c621c2f93a
+Author: gp <girishji@gmail.com>
+Date:   Fri Jun 3 19:49:19 2022 +0200
+
+    Initial commit
