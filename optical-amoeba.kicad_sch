@@ -574,7 +574,7 @@
     (property "Value" "Q_Photo_NPN_CE" (id 1) (at 125.5014 83.5029 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Optical_Parts:Everlight_PT_PT12-21B_TR8" (id 2) (at 125.73 80.01 0)
+    (property "Footprint" "Optical_Parts:Everlight_PT_PT12-21C_TR8" (id 2) (at 125.73 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 82.55 0)
@@ -652,7 +652,7 @@
       (reference "J1") (unit 1) (value "Conn_01x08_Male") (footprint "Optical_Parts:Gateron_Optical_Switch")
     )
     (path "/548bb468-a13e-41e7-a6b9-f73eb3b9ea63"
-      (reference "Q1") (unit 1) (value "Q_Photo_NPN_CE") (footprint "Optical_Parts:Everlight_PT_PT12-21B_TR8")
+      (reference "Q1") (unit 1) (value "Q_Photo_NPN_CE") (footprint "Optical_Parts:Everlight_PT_PT12-21C_TR8")
     )
     (path "/23503685-6c48-4b6b-a5a1-d4b81440ce50"
       (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0603_1608Metric")
