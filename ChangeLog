@@ -1,15 +1,23 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Mon, 13 Jun 2022 09:15:18 +0200
+Date:   Mon, 13 Jun 2022 09:15:59 +0200
 
-Fixed outlines of edgecuts
+gitignore
 
 
- M .gitignore
-A  Optical_Parts.pretty/MountingHole_2.2mm_M2.kicad_mod
-M  keyboard-pcb/keyboard-pcb.kicad_pcb
-M  keyboard-pcb/keyboard-pcb.kicad_prl
-M  switch-cutout/switch-cutout.kicad_pcb
-M  switch-cutout/switch-cutout.kicad_prl
+M  .gitignore
+
+commit 3b0c8e32429124b35579edc84ef64f900e687c9e
+Author: Girish Palya <girishji@gmail.com>
+Date:   Mon Jun 13 09:15:18 2022 +0200
+
+    Fixed outlines of edgecuts
+    
+     M .gitignore
+    A  Optical_Parts.pretty/MountingHole_2.2mm_M2.kicad_mod
+    M  keyboard-pcb/keyboard-pcb.kicad_pcb
+    M  keyboard-pcb/keyboard-pcb.kicad_prl
+    M  switch-cutout/switch-cutout.kicad_pcb
+    M  switch-cutout/switch-cutout.kicad_prl
 
 commit 685d7cc6ae254794b0dd0fb968bfd693474bfdee
 Author: Girish Palya <girishji@gmail.com>
