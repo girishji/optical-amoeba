@@ -1,10 +1,38 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Mon, 13 Jun 2022 09:15:59 +0200
+Date:   Tue, 19 Jul 2022 23:43:54 +0200
 
-gitignore
+moved pcb to its own repository
 
 
-M  .gitignore
+M  OpticalSymbols_Library.kicad_sym
+M  Optical_Parts.pretty/BlackPill_STLINK.kicad_mod
+A  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
+M  Optical_Parts.pretty/Gateron_Switch_Basic.kicad_mod
+A  Optical_Parts.pretty/MountingHole_2.2mm_M2_jlcpcb.kicad_mod
+A  Optical_Parts.pretty/TestPoint_Plated_Hole_D1.2mm.kicad_mod
+D  keyboard-pcb/.gitignore
+D  keyboard-pcb/fp-lib-table
+D  keyboard-pcb/keyboard-pcb.kicad_pcb
+D  keyboard-pcb/keyboard-pcb.kicad_prl
+D  keyboard-pcb/keyboard-pcb.kicad_pro
+D  keyboard-pcb/keyboard-pcb.kicad_sch
+D  keyboard-pcb/placefp.py
+D  keyboard-pcb/switch.kicad_sch
+D  keyboard-pcb/sym-lib-table
+D  switch-cutout/.gitignore
+D  switch-cutout/fp-lib-table
+D  switch-cutout/switch-cutout.kicad_pcb
+D  switch-cutout/switch-cutout.kicad_prl
+D  switch-cutout/switch-cutout.kicad_pro
+D  switch-cutout/switch-cutout.kicad_sch
+
+commit 524066aa56d7bf3d86e2dbab1babbcfb45c80a0b
+Author: Girish Palya <girishji@gmail.com>
+Date:   Mon Jun 13 09:15:59 2022 +0200
+
+    gitignore
+    
+    M  .gitignore
 
 commit 3b0c8e32429124b35579edc84ef64f900e687c9e
 Author: Girish Palya <girishji@gmail.com>
