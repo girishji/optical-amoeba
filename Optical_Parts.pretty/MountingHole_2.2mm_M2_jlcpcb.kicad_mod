@@ -1,6 +1,6 @@
 (footprint "MountingHole_2.2mm_M2_jlcpcb" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62D03EA6)
+  (tedit 62D7918A)
   (descr "Mounting Hole 2.2mm, no annular, M2")
   (tags "mounting hole 2.2mm no annular m2")
   (attr exclude_from_pos_files exclude_from_bom)

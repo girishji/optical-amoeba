@@ -1,30 +1,52 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Tue, 19 Jul 2022 23:43:54 +0200
+Date:   Sat, 30 Jul 2022 19:47:40 +0200
 
-moved pcb to its own repository
+Added footprints
 
 
-M  OpticalSymbols_Library.kicad_sym
+
 M  Optical_Parts.pretty/BlackPill_STLINK.kicad_mod
-A  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
-M  Optical_Parts.pretty/Gateron_Switch_Basic.kicad_mod
-A  Optical_Parts.pretty/MountingHole_2.2mm_M2_jlcpcb.kicad_mod
-A  Optical_Parts.pretty/TestPoint_Plated_Hole_D1.2mm.kicad_mod
-D  keyboard-pcb/.gitignore
-D  keyboard-pcb/fp-lib-table
-D  keyboard-pcb/keyboard-pcb.kicad_pcb
-D  keyboard-pcb/keyboard-pcb.kicad_prl
-D  keyboard-pcb/keyboard-pcb.kicad_pro
-D  keyboard-pcb/keyboard-pcb.kicad_sch
-D  keyboard-pcb/placefp.py
-D  keyboard-pcb/switch.kicad_sch
-D  keyboard-pcb/sym-lib-table
-D  switch-cutout/.gitignore
-D  switch-cutout/fp-lib-table
-D  switch-cutout/switch-cutout.kicad_pcb
-D  switch-cutout/switch-cutout.kicad_prl
-D  switch-cutout/switch-cutout.kicad_pro
-D  switch-cutout/switch-cutout.kicad_sch
+M  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
+M  Optical_Parts.pretty/Everlight_IR_IR12-21C_TR8.kicad_mod
+M  Optical_Parts.pretty/Everlight_PT_PT12-21C_TR8.kicad_mod
+M  Optical_Parts.pretty/Gateron_Optical_Switch.kicad_mod
+M  Optical_Parts.pretty/MountingHole_2.2mm_M2_jlcpcb.kicad_mod
+M  Optical_Parts.pretty/Switch_Cutout.kicad_mod
+M  Optical_Parts.pretty/Switch_Cutout_1.25u.kicad_mod
+M  Optical_Parts.pretty/Switch_Cutout_1.5u.kicad_mod
+M  Optical_Parts.pretty/Switch_Cutout_1.75u.kicad_mod
+M  README.md
+M  optical-amoeba.kicad_pcb
+M  optical-amoeba.kicad_prl
+M  optical-amoeba.kicad_sch
+
+commit d1d5953e7ddc5cd3eeb0001192f0bce8902928fc
+Author: Girish Palya <girishji@gmail.com>
+Date:   Tue Jul 19 23:43:54 2022 +0200
+
+    moved pcb to its own repository
+    
+    M  OpticalSymbols_Library.kicad_sym
+    M  Optical_Parts.pretty/BlackPill_STLINK.kicad_mod
+    A  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
+    M  Optical_Parts.pretty/Gateron_Switch_Basic.kicad_mod
+    A  Optical_Parts.pretty/MountingHole_2.2mm_M2_jlcpcb.kicad_mod
+    A  Optical_Parts.pretty/TestPoint_Plated_Hole_D1.2mm.kicad_mod
+    D  keyboard-pcb/.gitignore
+    D  keyboard-pcb/fp-lib-table
+    D  keyboard-pcb/keyboard-pcb.kicad_pcb
+    D  keyboard-pcb/keyboard-pcb.kicad_prl
+    D  keyboard-pcb/keyboard-pcb.kicad_pro
+    D  keyboard-pcb/keyboard-pcb.kicad_sch
+    D  keyboard-pcb/placefp.py
+    D  keyboard-pcb/switch.kicad_sch
+    D  keyboard-pcb/sym-lib-table
+    D  switch-cutout/.gitignore
+    D  switch-cutout/fp-lib-table
+    D  switch-cutout/switch-cutout.kicad_pcb
+    D  switch-cutout/switch-cutout.kicad_prl
+    D  switch-cutout/switch-cutout.kicad_pro
+    D  switch-cutout/switch-cutout.kicad_sch
 
 commit 524066aa56d7bf3d86e2dbab1babbcfb45c80a0b
 Author: Girish Palya <girishji@gmail.com>

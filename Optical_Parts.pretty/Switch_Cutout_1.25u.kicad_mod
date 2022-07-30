@@ -1,6 +1,6 @@
 (footprint "Switch_Cutout_1.25u" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 629B7374)
+  (tedit 62DA68D7)
   (descr "Cherry MX keyswitch PCB Mount with 1.00u keycap")
   (tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout 1.00u")
   (attr through_hole)
@@ -20,12 +20,24 @@
   (fp_line (start -11.90625 -9.525) (end -11.90625 9.525) (layer "Dwgs.User") (width 0.1) (tstamp 99030c03-63b4-49ba-b5ab-4d56974f7963))
   (fp_line (start 11.90625 -9.525) (end -11.90625 -9.525) (layer "Dwgs.User") (width 0.1) (tstamp 9ff4672a-e1a4-4a1e-887d-1b9a3429d278))
   (fp_line (start 11.90625 9.525) (end 11.90625 -9.525) (layer "Dwgs.User") (width 0.1) (tstamp edc9ab4f-487a-48dc-95f2-4d87f0e9cf9e))
-  (fp_line (start 7 6.5) (end 7 -6.5) (layer "Edge.Cuts") (width 0.1) (tstamp 79ed7fea-8b50-4d37-8cb9-9a2d0ab6a70f))
-  (fp_line (start -6.5 7) (end 6.5 7) (layer "Edge.Cuts") (width 0.1) (tstamp 89c38918-ddb9-4ff7-b030-c879a051e508))
-  (fp_line (start 6.5 -7) (end -6.5 -7) (layer "Edge.Cuts") (width 0.1) (tstamp c7f0a246-112a-450e-99a3-40ec01fda76d))
-  (fp_line (start -7 -6.5) (end -7 6.5) (layer "Edge.Cuts") (width 0.1) (tstamp efe58d04-9cfb-4efc-b56a-8b7eb8f95428))
-  (fp_arc (start -6.5 7) (mid -6.853553 6.853553) (end -7 6.5) (layer "Edge.Cuts") (width 0.12) (tstamp 2b69fe46-dbcd-4d6f-94aa-08e422ff2f35))
-  (fp_arc (start -7 -6.5) (mid -6.853553 -6.853553) (end -6.5 -7) (layer "Edge.Cuts") (width 0.12) (tstamp 540e4111-7498-447b-9214-dca2a6822f88))
-  (fp_arc (start 7 6.5) (mid 6.853553 6.853553) (end 6.5 7) (layer "Edge.Cuts") (width 0.12) (tstamp 8fd5ab0e-989b-48a9-be80-0e9a823c7b1a))
-  (fp_arc (start 6.5 -7) (mid 6.853553 -6.853553) (end 7 -6.5) (layer "Edge.Cuts") (width 0.12) (tstamp 9e9d73a8-95ea-4773-ace6-c8e656ed8bdd))
+  (fp_line (start -6.6 6.9) (end 6.6 6.9) (layer "Edge.Cuts") (width 0.12) (tstamp 244d0622-2f04-4395-b0ce-fa7cdc47da8f))
+  (fp_line (start -6.9 -6.6) (end -6.9 6.6) (layer "Edge.Cuts") (width 0.12) (tstamp 6c499f23-5677-483d-b56c-f6cb8af766ab))
+  (fp_line (start 6.9 6.6) (end 6.9 -6.6) (layer "Edge.Cuts") (width 0.12) (tstamp 8332abe0-513c-4c6f-9236-05683cae4596))
+  (fp_line (start -6.6 -6.9) (end 6.6 -6.9) (layer "Edge.Cuts") (width 0.12) (tstamp acbe3bc2-da2d-4575-a015-e9f4e495bd9e))
+  (fp_arc (start -6.6 6.9) (mid -6.812132 6.812132) (end -6.9 6.6) (layer "Edge.Cuts") (width 0.12) (tstamp d04609a5-dda0-4859-95b5-7b9c98ee48d6))
+  (fp_arc (start -6.9 -6.6) (mid -6.812132 -6.812132) (end -6.6 -6.9) (layer "Edge.Cuts") (width 0.12) (tstamp d7278cec-9bf5-40d0-a7e9-73a064c77d8d))
+  (fp_arc (start 6.6 -6.9) (mid 6.812132 -6.812132) (end 6.9 -6.6) (layer "Edge.Cuts") (width 0.12) (tstamp e98b420c-006d-4677-8a40-42adba797a66))
+  (fp_arc (start 6.9 6.6) (mid 6.812132 6.812132) (end 6.6 6.9) (layer "Edge.Cuts") (width 0.12) (tstamp eba43cf1-6d26-4220-8888-7152819486ce))
+  (group "" (id 568648f7-ac47-48c3-bd62-92ec15744260)
+    (members
+      244d0622-2f04-4395-b0ce-fa7cdc47da8f
+      6c499f23-5677-483d-b56c-f6cb8af766ab
+      8332abe0-513c-4c6f-9236-05683cae4596
+      acbe3bc2-da2d-4575-a015-e9f4e495bd9e
+      d04609a5-dda0-4859-95b5-7b9c98ee48d6
+      d7278cec-9bf5-40d0-a7e9-73a064c77d8d
+      e98b420c-006d-4677-8a40-42adba797a66
+      eba43cf1-6d26-4220-8888-7152819486ce
+    )
+  )
 )
