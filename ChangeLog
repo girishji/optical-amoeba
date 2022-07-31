@@ -1,24 +1,37 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Sat, 30 Jul 2022 19:47:40 +0200
+Date:   Sun, 31 Jul 2022 20:53:38 +0200
 
-Added footprints
+Separated power sourcde for PT and Led
 
+Having same power source necessiates a diode; Diode degrades
+performance at read pin
 
-
-M  Optical_Parts.pretty/BlackPill_STLINK.kicad_mod
-M  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
-M  Optical_Parts.pretty/Everlight_IR_IR12-21C_TR8.kicad_mod
-M  Optical_Parts.pretty/Everlight_PT_PT12-21C_TR8.kicad_mod
+M  OpticalSymbols_Library.kicad_sym
 M  Optical_Parts.pretty/Gateron_Optical_Switch.kicad_mod
-M  Optical_Parts.pretty/MountingHole_2.2mm_M2_jlcpcb.kicad_mod
-M  Optical_Parts.pretty/Switch_Cutout.kicad_mod
-M  Optical_Parts.pretty/Switch_Cutout_1.25u.kicad_mod
-M  Optical_Parts.pretty/Switch_Cutout_1.5u.kicad_mod
-M  Optical_Parts.pretty/Switch_Cutout_1.75u.kicad_mod
-M  README.md
 M  optical-amoeba.kicad_pcb
 M  optical-amoeba.kicad_prl
 M  optical-amoeba.kicad_sch
+
+commit 01a6e05c6e5926e0cec652071a977f5f793007ba
+Author: Girish Palya <girishji@gmail.com>
+Date:   Sat Jul 30 19:47:40 2022 +0200
+
+    Added footprints
+    
+    M  Optical_Parts.pretty/BlackPill_STLINK.kicad_mod
+    M  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
+    M  Optical_Parts.pretty/Everlight_IR_IR12-21C_TR8.kicad_mod
+    M  Optical_Parts.pretty/Everlight_PT_PT12-21C_TR8.kicad_mod
+    M  Optical_Parts.pretty/Gateron_Optical_Switch.kicad_mod
+    M  Optical_Parts.pretty/MountingHole_2.2mm_M2_jlcpcb.kicad_mod
+    M  Optical_Parts.pretty/Switch_Cutout.kicad_mod
+    M  Optical_Parts.pretty/Switch_Cutout_1.25u.kicad_mod
+    M  Optical_Parts.pretty/Switch_Cutout_1.5u.kicad_mod
+    M  Optical_Parts.pretty/Switch_Cutout_1.75u.kicad_mod
+    M  README.md
+    M  optical-amoeba.kicad_pcb
+    M  optical-amoeba.kicad_prl
+    M  optical-amoeba.kicad_sch
 
 commit d1d5953e7ddc5cd3eeb0001192f0bce8902928fc
 Author: Girish Palya <girishji@gmail.com>
