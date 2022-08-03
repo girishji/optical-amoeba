@@ -1,15 +1,39 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Wed, 03 Aug 2022 11:15:12 +0200
+Date:   Wed, 03 Aug 2022 13:33:33 +0200
 
-Moved footprints to optical keyboard dir
+Add jlcpcb gerber and assembly files
 
 
 
-M  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
-D  Optical_Parts.pretty/Switch_Cutout.kicad_mod
-D  Optical_Parts.pretty/Switch_Cutout_1.25u.kicad_mod
-D  Optical_Parts.pretty/Switch_Cutout_1.5u.kicad_mod
-D  Optical_Parts.pretty/Switch_Cutout_1.75u.kicad_mod
+M  OpticalSymbols_Library.kicad_sym
+A  jlcpcb/gerber/optical-amoeba-B_Cu.gbl
+A  jlcpcb/gerber/optical-amoeba-B_Mask.gbs
+A  jlcpcb/gerber/optical-amoeba-B_Paste.gbp
+A  jlcpcb/gerber/optical-amoeba-B_Silkscreen.gbo
+A  jlcpcb/gerber/optical-amoeba-Edge_Cuts.gm1
+A  jlcpcb/gerber/optical-amoeba-F_Cu.gtl
+A  jlcpcb/gerber/optical-amoeba-F_Mask.gts
+A  jlcpcb/gerber/optical-amoeba-F_Paste.gtp
+A  jlcpcb/gerber/optical-amoeba-F_Silkscreen.gto
+A  jlcpcb/gerber/optical-amoeba-NPTH-drl_map.gbr
+A  jlcpcb/gerber/optical-amoeba-NPTH.drl
+A  jlcpcb/gerber/optical-amoeba-PTH-drl_map.gbr
+A  jlcpcb/gerber/optical-amoeba-PTH.drl
+M  optical-amoeba.kicad_pcb
+M  optical-amoeba.kicad_prl
+M  optical-amoeba.kicad_sch
+
+commit b405bfd2458cd813c913ab327ebedc7ca820ec05
+Author: Girish Palya <girishji@gmail.com>
+Date:   Wed Aug 3 11:15:12 2022 +0200
+
+    Moved footprints to optical keyboard dir
+    
+    M  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
+    D  Optical_Parts.pretty/Switch_Cutout.kicad_mod
+    D  Optical_Parts.pretty/Switch_Cutout_1.25u.kicad_mod
+    D  Optical_Parts.pretty/Switch_Cutout_1.5u.kicad_mod
+    D  Optical_Parts.pretty/Switch_Cutout_1.75u.kicad_mod
 
 commit 960ec1a9d1ae67e40f52c2e736624043811c4190
 Author: Girish Palya <girishji@gmail.com>
