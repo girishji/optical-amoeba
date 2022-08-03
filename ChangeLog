@@ -1,16 +1,30 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Sun, 31 Jul 2022 20:53:38 +0200
+Date:   Wed, 03 Aug 2022 11:15:12 +0200
 
-Separated power sourcde for PT and Led
+Moved footprints to optical keyboard dir
 
-Having same power source necessiates a diode; Diode degrades
-performance at read pin
 
-M  OpticalSymbols_Library.kicad_sym
-M  Optical_Parts.pretty/Gateron_Optical_Switch.kicad_mod
-M  optical-amoeba.kicad_pcb
-M  optical-amoeba.kicad_prl
-M  optical-amoeba.kicad_sch
+
+M  Optical_Parts.pretty/BlackPill_STLINK2.kicad_mod
+D  Optical_Parts.pretty/Switch_Cutout.kicad_mod
+D  Optical_Parts.pretty/Switch_Cutout_1.25u.kicad_mod
+D  Optical_Parts.pretty/Switch_Cutout_1.5u.kicad_mod
+D  Optical_Parts.pretty/Switch_Cutout_1.75u.kicad_mod
+
+commit 960ec1a9d1ae67e40f52c2e736624043811c4190
+Author: Girish Palya <girishji@gmail.com>
+Date:   Sun Jul 31 20:53:38 2022 +0200
+
+    Separated power sourcde for PT and Led
+    
+    Having same power source necessiates a diode; Diode degrades
+    performance at read pin
+    
+    M  OpticalSymbols_Library.kicad_sym
+    M  Optical_Parts.pretty/Gateron_Optical_Switch.kicad_mod
+    M  optical-amoeba.kicad_pcb
+    M  optical-amoeba.kicad_prl
+    M  optical-amoeba.kicad_sch
 
 commit 01a6e05c6e5926e0cec652071a977f5f793007ba
 Author: Girish Palya <girishji@gmail.com>
