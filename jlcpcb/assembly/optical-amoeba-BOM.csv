@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC
+"LED","D1","Optical_Parts:Everlight_IR_IR12-21C_TR8","C53672"
+"Conn_01x08_Male","J1","Optical_Parts:Gateron_Optical_Switch",""
+"Q_Photo_NPN_CE","Q1","Optical_Parts:Everlight_PT_PT12-21C_TR8","C264383"
+"R_Led","RL1","Resistor_SMD:R_0603_1608Metric","C4190"
+"R_PT","RP1","Resistor_SMD:R_0805_2012Metric","C17713"

@@ -1,27 +1,37 @@
 Author: Girish Palya <girishji@gmail.com>
-Date:   Wed, 03 Aug 2022 13:33:33 +0200
+Date:   Wed, 03 Aug 2022 13:44:01 +0200
 
-Add jlcpcb gerber and assembly files
+Add assembly files
 
 
 
-M  OpticalSymbols_Library.kicad_sym
-A  jlcpcb/gerber/optical-amoeba-B_Cu.gbl
-A  jlcpcb/gerber/optical-amoeba-B_Mask.gbs
-A  jlcpcb/gerber/optical-amoeba-B_Paste.gbp
-A  jlcpcb/gerber/optical-amoeba-B_Silkscreen.gbo
-A  jlcpcb/gerber/optical-amoeba-Edge_Cuts.gm1
-A  jlcpcb/gerber/optical-amoeba-F_Cu.gtl
-A  jlcpcb/gerber/optical-amoeba-F_Mask.gts
-A  jlcpcb/gerber/optical-amoeba-F_Paste.gtp
-A  jlcpcb/gerber/optical-amoeba-F_Silkscreen.gto
-A  jlcpcb/gerber/optical-amoeba-NPTH-drl_map.gbr
-A  jlcpcb/gerber/optical-amoeba-NPTH.drl
-A  jlcpcb/gerber/optical-amoeba-PTH-drl_map.gbr
-A  jlcpcb/gerber/optical-amoeba-PTH.drl
-M  optical-amoeba.kicad_pcb
-M  optical-amoeba.kicad_prl
-M  optical-amoeba.kicad_sch
+M  .gitignore
+A  jlcpcb/assembly/optical-amoeba-BOM.csv
+A  jlcpcb/assembly/optical-amoeba-top-pos.csv
+
+commit 358bf899c8b4865a1f8d04bdc9f4839a714a54de
+Author: Girish Palya <girishji@gmail.com>
+Date:   Wed Aug 3 13:33:33 2022 +0200
+
+    Add jlcpcb gerber and assembly files
+    
+    M  OpticalSymbols_Library.kicad_sym
+    A  jlcpcb/gerber/optical-amoeba-B_Cu.gbl
+    A  jlcpcb/gerber/optical-amoeba-B_Mask.gbs
+    A  jlcpcb/gerber/optical-amoeba-B_Paste.gbp
+    A  jlcpcb/gerber/optical-amoeba-B_Silkscreen.gbo
+    A  jlcpcb/gerber/optical-amoeba-Edge_Cuts.gm1
+    A  jlcpcb/gerber/optical-amoeba-F_Cu.gtl
+    A  jlcpcb/gerber/optical-amoeba-F_Mask.gts
+    A  jlcpcb/gerber/optical-amoeba-F_Paste.gtp
+    A  jlcpcb/gerber/optical-amoeba-F_Silkscreen.gto
+    A  jlcpcb/gerber/optical-amoeba-NPTH-drl_map.gbr
+    A  jlcpcb/gerber/optical-amoeba-NPTH.drl
+    A  jlcpcb/gerber/optical-amoeba-PTH-drl_map.gbr
+    A  jlcpcb/gerber/optical-amoeba-PTH.drl
+    M  optical-amoeba.kicad_pcb
+    M  optical-amoeba.kicad_prl
+    M  optical-amoeba.kicad_sch
 
 commit b405bfd2458cd813c913ab327ebedc7ca820ec05
 Author: Girish Palya <girishji@gmail.com>

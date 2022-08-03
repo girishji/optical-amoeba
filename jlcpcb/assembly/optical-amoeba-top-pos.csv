@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"D1","LED","Everlight_IR_IR12-21C_TR8",96.600000,-100.012500,-90.000000,top
+"J1","Conn_01x08_Male","Gateron_Optical_Switch",100.000000,-100.000000,0.000000,top
+"Q1","Q_Photo_NPN_CE","Everlight_PT_PT12-21C_TR8",103.400000,-100.000000,90.000000,top
+"RL1","R_Led","R_0603_1608Metric",99.900000,-108.300000,180.000000,top
+"RP1","R_PT","R_0805_2012Metric",91.800000,-100.700000,90.000000,top
